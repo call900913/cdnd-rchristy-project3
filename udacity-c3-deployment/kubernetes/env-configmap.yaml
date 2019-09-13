@@ -7,6 +7,6 @@ data:
   JWT_SECRET: "pAqtTUYx9Xt6hGhldZEZHzTW1AxVFY0SaRC3Bm0PHMVkfksbTqqxnaCZtfDs4SiU"
   POSTGRESS_DB: "rcudagram"
   POSTGRESS_HOST: "rcudagram.c5d9ehkkpk60.us-east-2.rds.amazonaws.com"
-  URL: http://localhost:8100
+  URL: "a1dafff00d63a11e9a0a30a66f6f4a5f-1157499537.us-east-2.elb.amazonaws.com:8100"
 metadata:
   name: env-config
