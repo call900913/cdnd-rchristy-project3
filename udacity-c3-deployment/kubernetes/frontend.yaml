@@ -13,7 +13,7 @@ spec:
         api: external
     spec:
       containers:
-      - image: call900913/udacity-frontend:local
+      - image: call900913/udacity-frontend
         name: frontend
         imagePullPolicy: Always
         ports:
