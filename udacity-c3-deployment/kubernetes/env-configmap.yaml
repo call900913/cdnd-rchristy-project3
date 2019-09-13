@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: "elasticbeanstalk-us-east-2-495284986632.s3.amazonaws.com"
+  AWS_PROFILE: "default"
+  AWS_REGION: "us-east-2"
+  JWT_SECRET: "pAqtTUYx9Xt6hGhldZEZHzTW1AxVFY0SaRC3Bm0PHMVkfksbTqqxnaCZtfDs4SiU"
+  POSTGRESS_DB: "rcudagram"
+  POSTGRESS_HOST: "rcudagram.c5d9ehkkpk60.us-east-2.rds.amazonaws.com"
+  URL: http://localhost:8100
+metadata:
+  name: env-config
