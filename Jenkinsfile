@@ -26,13 +26,13 @@ pipeline {
         dir("/var/lib/jenkins/workspace/cloud-rchristy-project3_master") {
           sh '''
             export PATH=/var/lib/jenkins:$PATH
-            && kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/env-configmap.yaml
-            && kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/env-secret.yaml
-            && kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/aws-secret.yaml
-            && kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/frontend.yaml
-            && kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/reverseproxy.yaml
-            && kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/backend-feed.yaml
-            && kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/backend-user.yaml
+            kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/env-configmap.yaml
+            kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/env-secret.yaml
+            kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/aws-secret.yaml
+            kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/frontend.yaml
+            kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/reverseproxy.yaml
+            kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/backend-feed.yaml
+            kubectl apply -f cloud-rchristy-project3/udacity-c3-deployment/kubernetes/backend-user.yaml
             '''
         }
       }
