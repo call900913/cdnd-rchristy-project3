@@ -1,6 +1,6 @@
 # README
 
-This project deploys an app, which features a microservice architecture, on a Kubernetes Cluster on AWS.
+This project deploys an app which features a microservice architecture on a Kubernetes Cluster on AWS.
 
 The app itself was built by [@grutt](https://github.com/scheele) and [@scheeles](https://github.com/scheeles) in partnership with Udacity. 
 It is comprised of the following microservices:
