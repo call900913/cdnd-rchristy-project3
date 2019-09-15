@@ -20,7 +20,7 @@ The app is deployed à la DevOps, and we use Jenkins as our CI/CD tool of choice
 Our Jenkins server monitors the GitHub repo for changes; it initiates the build process pipeline whenever it detects a change: build the image, push the image to Image Repository, run the containers on pods.
 
 
-## App Update Mechanism
+### App Update Mechanism
 
 This [domain]((http://testdevops.riyanchristy.net)) name has a weighted routing linked to two A records, each pointing to the Load Balancer representing a Kubernetes Cluster, where a version of the app lives.
 
