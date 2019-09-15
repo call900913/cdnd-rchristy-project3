@@ -4,10 +4,10 @@ This project deploys an app which features a microservice architecture on a Kube
 
 The app itself was built by [@grutt](https://github.com/scheele) and [@scheeles](https://github.com/scheeles) in partnership with Udacity. 
 It is comprised of the following microservices:
-* frontend service -- udacity-c3-frontend/
-* nginx proxy service -- udacity-c3-deployment/
-* a backend service to handle user data -- udacity-c3-restapi-user/
-* another backend service to handle feed data -- udacity-c3-restapi-feed/
+* frontend service -- `udacity-c3-frontend/`
+* nginx proxy service -- `udacity-c3-deployment/`
+* a backend service to handle user data -- `udacity-c3-restapi-user/`
+* another backend service to handle feed data -- `udacity-c3-restapi-feed/`
 
 In addition, this app also makes use of a Postgres Database Server also deployed on AWS.
 
